@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#283618"
+    android:backgroundTint="#283618"
+    tools:context=".EntradaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#283618"
+        android:backgroundTint="#283618"
+        android:backgroundTintMode="screen"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/backToMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:backgroundTint="#FEFAE0"
+            android:onClick="comeBack"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/nombre_tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#283618"
+            android:backgroundTint="#283618"
+            android:fontFamily="cursive"
+            android:scrollbars="vertical"
+            android:text="@string/Entradas"
+            android:textAlignment="center"
+            android:textColor="#BC6C25"
+            android:textSize="20sp"
+            tools:text="@string/Entradas" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#283618"
+            android:backgroundTint="#283618"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#283618">
+
+                <ImageView
+                    android:id="@+id/imageViewProducto"
+                    android:layout_width="309dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#283618"
+                android:backgroundTint="#283618"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp" />
+
+                <TextView
+                    android:id="@+id/textViewNombreProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="cursive"
+                    android:maxLines="1"
+                    android:overScrollMode="ifContentScrolls"
+                    android:text="  TextView"
+                    android:textAlignment="center"
+                    android:textColor="#FEFAE0"
+                    android:textSize="24sp"
+                    app:drawableStartCompat="@drawable/pescao" />
+
+                <TextView
+                    android:id="@+id/textViewPrecioProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:fontFamily="cursive"
+                    android:maxLines="1"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textColor="#BC6C25"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textViewIngredientes"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:fontFamily="cursive"
+                    android:maxLines="3"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textColor="#FEFAE0"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
