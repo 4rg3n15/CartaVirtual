@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#283618"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        android:backgroundTint="#283618"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/perfil_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="#283618"
+                android:onClick="abrirRegistro"
+                app:srcCompat="@drawable/perfil" />
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="@string/rest_name"
+                android:textAlignment="textStart"
+                android:textColor="#FEFAE0"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="222dp"
+                android:layout_height="169dp"
+                android:layout_weight="1"
+                android:background="#FEFAE0"
+                android:cropToPadding="true"
+                android:paddingHorizontal="0px"
+                android:paddingVertical="0px"
+                app:srcCompat="@drawable/logo" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="63dp"
+            android:layout_height="27dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="@string/app_Bienvenida"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FEFAE0"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+
+        <Button
+            android:id="@+id/buttonMenu"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:backgroundTint="#283618"
+            android:drawableLeft="@drawable/menu"
+            android:onClick="abrirMenu"
+            android:text="@string/app_menu"
+            android:textAlignment="textStart" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/buttonPedido"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:backgroundTint="#283618"
+            android:drawableLeft="@drawable/pedido"
+            android:onClick="abrirPedido"
+            android:text="@string/app_pedido"
+            android:textAlignment="textStart" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/buttonMesa"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:backgroundTint="#283618"
+            android:drawableLeft="@drawable/mesa"
+            android:onClick="abrirReserva"
+            android:text="@string/app_reserva"
+            android:textAlignment="textStart" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/buttonInfo"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:backgroundTint="#283618"
+            android:drawableLeft="@drawable/info"
+            android:onClick="abrirSedes"
+            android:text="@string/app_info"
+            android:textAlignment="textStart" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/buttonCalificar"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:backgroundTint="#283618"
+            android:drawableLeft="@drawable/calificar"
+            android:onClick="abrirCliente"
+            android:text="@string/app_calificar"
+            android:textAlignment="textStart" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Eden_Hall</string>
+    <string name="rest_name">EdenHall</string>
+    <string name="app_menu">Sabores del Edén</string>
+    <string name="app_pedido">Realizar un Pedido</string>
+    <string name="app_reserva">Reserva en el Paraíso</string>
+    <string name="app_info">Encuentra el Edén</string>
+    <string name="app_calificar">¿Cómo es el paraíso?</string>
+    <string name="app_Bienvenida">El placer de comer en el paraíso</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    //NOMBRE
+    <string name="Entradas">Bocados Celestiales</string>>
+
+    <string name="Platos">Festín Divino</string>>
+
+    <string name="Postres">Dulzuras del Jardín</string>>
+    <string name="Bebidas">Brebajes del Paraíso</string>>
+
+
+    <string name="Entrada1">....Carpaccio de Pulpo....</string>>
+    <string name="Plato1">....Morrillo Baseado....</string>>
+    <string name="Entrada2">....Tacos de Camarón....</string>>
+    <string name="Plato2">....Arroz Dos Mares....</string>>
+    <string name="Entrada3">....Tiradito 3 Pescas....</string>>
+    <string name="Plato3">....Parrillada EdenHall....</string>>
+    <string name="Bebida1">....Oaxaca Negroni....</string>>
+    <string name="Bebida2">....Bloody Mary....</string>>
+    <string name="Bebida3">....Limonada de Coco....</string>>
+    <string name="Postre1">....Palenque....</string>>
+    <string name="Postre2">....Flan Ahumado de Arequipe....</string>>
+    <string name="Postre3">....Aroma de café....</string>>
+
+    //INGREDIENTE
+    <string name="ING_Entrada1">....Leche de Tigre, Aceite de oliva y Cilantro, hojas verdes orgánicas y Grana Padano.</string>>
+    <string name="ING_Entrada2">....En Tortilla de Maíz morado, salsa de Curry rojo, Coco y Mole negro. (3 UND)</string>>
+    <string name="ING_Entrada3">....Atún, Salmón y Pesca Blanca del Pacifico, aire de Lulo, Limón Marroquí, Ají Amarillo.</string>>
+    <string name="ING_plato1">....Salsa de Cerveza negra, Panela y Rocotto, cremoso de Quinua roja, hilos de Zanahoria.</string>
+    <string name="ING_plato2">....Frutos de los mares Colombianos, Tocino ahumado y Arroz de Coco.</string>
+    <string name="ING_plato3">....Asado de Tira, Striploin y Picanha, Papas Criollas trufadas, Grana Padano, Polvo de Chorizo, Yucas, Mazorca Parrillada.</string>
+    <string name="ING_Bebida1">....Mezcal, 400 Conejos, Campari Ancho de Reyes,</string>
+    <string name="ING_Bebida2">....Vodka, Zumo de Tomate, Salsa Inglesa, Tabasco</string>>
+    <string name="ING_Bebida3">....Limonada con el mejor coco rallado de EdenHall</string>>
+    <string name="ING_Postre1">....Inspirado en las canastas de fruta tropical que llevan las Palenqueras del Caribe en su cabeza</string>
+    <string name="ING_Postre2">....Suero costeño, caramelo, crumble de Almendras.</string>>
+    <string name="ING_Postre3">....Café Colombiano, Cacao, Biscocho al Baileys, Crumble de Fruto secos.</string>>
+
+    //PRECIO
+    <string name="PRECIO_Entrada1">........$ 81.000</string>>
+    <string name="PRECIO_Entrada2">........$ 53.000</string>>
+    <string name="PRECIO_Entrada3">........$ 78.000</string>>
+    <string name="PRECIO_plato1">........$ 96.000</string>>
+    <string name="PRECIO_plato2">........$ 98.000</string>>
+    <string name="PRECIO_plato3">........$ 540.000</string>>
+    <string name="PRECIO_Postre1">........$ 38.000</string>>
+    <string name="PRECIO_Postre2">........$ 33.000</string>>
+    <string name="PRECIO_Postre3">........$ 35.000</string>>
+    <string name="PRECIO_Bebida1">........$ 72.000</string>>
+    <string name="PRECIO_Bebida2">........$ 65.000</string>>
+    <string name="PRECIO_Bebida3">........$ 19.000</string>>
+
+</resources>
